@@ -19,7 +19,7 @@ export default function Home() {
               con cursos online, manejo multiples tecnologias pero si se requiere
               algo nuevo estoy dispuesto a aprenderla.
             </p>
-            <a target="_blank" href="/img/Axel David CV.pdf">
+            <a target="_blank" href="/img/Axel David Téllez Álvarez (2).pdf">
               <button className={styles.btnCV}>Descargar CV</button>
             </a>
           </div>
