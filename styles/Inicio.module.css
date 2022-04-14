@@ -1,0 +1,47 @@
+.divPrincipal {
+    height: 67.9vh;
+    background-color: rgb(46, 46, 46);
+    margin-bottom: -4rem;
+}
+
+@media (max-width: 375px) {
+   .divPrincipal {
+       margin-bottom: -7rem;
+       height: 100vh;
+   }
+}
+
+.principal {
+    /* height: 70vh; */
+    box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.51);
+    padding: 3rem;
+    margin-bottom: -7rem;
+}
+
+.principal h1 {
+    text-align: center;
+    color: var(--blanco);
+}
+
+.principal span {
+    color: var(--primary);
+}
+
+.principal p {
+    color: var(--blanco);
+}
+
+.btnCV {
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: var(--primary);
+    padding: 1.4rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.btnCV:hover {
+    padding: 1.3rem;
+    background-color: var(--blanco);
+    border: 1px solid var(--primary);
+}

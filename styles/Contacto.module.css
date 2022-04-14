@@ -1,0 +1,81 @@
+.info {
+    box-shadow: 0px 0px 23px -3px rgba(0,0,0,0.75);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+
+.info p {
+    font-size: 2rem;
+}
+
+.info span {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.info h2 {
+      margin: 0 auto;
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      /* width: %; */
+      border-radius: 10%;
+      padding: 2px;
+      background-color: var(--negro);
+      background-image: linear-gradient(62deg, var(--negro) 0%, var(--primary) 100%);
+}
+
+.linea {
+    margin-bottom: 2rem;
+}
+
+.contacto {
+    width: 8rem;
+    transition-duration: .3s;
+}
+
+@media (max-width: 731px) {
+    .contacto {
+        width: 7rem;
+    }
+}
+
+@media (max-width: 731px) {
+    .contacto:hover {
+        width: 8rem;
+    }
+}
+
+.iconos {
+    display: grid;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+   .iconos {
+       margin-left: 9rem;
+       grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media (min-width: 992px) {
+   .iconos {
+       margin-left: 25rem;
+       grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media (max-width: 540px) {
+   .iconos {
+       grid-template-columns: repeat(3, 1fr);
+       margin-left: 1rem;
+   }
+}
+
+.contacto:hover {
+    width: 9rem;
+}
