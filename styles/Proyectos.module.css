@@ -19,7 +19,13 @@
     .principal {
         grid-template-columns: repeat(3, 1fr);
         gap: 5rem;
-        margin-left: 3.3rem;
+        margin-left: 3rem;
+    }
+ }
+
+ @media (min-width: 1600px) {
+    .principal {
+        margin-left: 10rem;
     }
  }
 
@@ -32,6 +38,8 @@
     border-radius: 4rem;
     transition-duration: .6s;
 }
+
+
 
 .cotizador:hover {
     width: 34.5rem;

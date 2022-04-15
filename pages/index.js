@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import Layout from "../components/Layout";
 import styles from "../styles/Inicio.module.css";
 
@@ -19,9 +17,6 @@ export default function Home() {
               con cursos online, manejo multiples tecnologias pero si se requiere
               algo nuevo estoy dispuesto a aprenderla.
             </p>
-            <a target="_blank" href="/img/Axel David Téllez Álvarez (3).pdf">
-              <button className={styles.btnCV}>Descargar CV</button>
-            </a>
           </div>
         </div>
       </div>

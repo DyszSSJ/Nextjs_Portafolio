@@ -53,10 +53,16 @@
     transition-duration: .5s;
 }
 
+@media (min-width: 1600px) {
+   .skills {
+       margin-left: 5rem;
+   }
+}
+
 .skills:hover {
     width: 35rem;
     padding: 3.5rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .skills h2 {
