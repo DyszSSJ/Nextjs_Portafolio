@@ -33,8 +33,8 @@ const Skills = () => {
               layout="responsive"
               width={50}
               height={30}
-              src="/img/png-transparent-logo-css-css3.png"
-              alt="Imagen de CSS"
+              src="/img/JavaScript_Featured-1.jpg"
+              alt="Imagen de JasvScript"
             />
           </div>
 
@@ -43,10 +43,31 @@ const Skills = () => {
               layout="responsive"
               width={50}
               height={30}
-              src="/img/JavaScript_Featured-1.jpg"
-              alt="Imagen de JasvScript"
+              src="/img/PRISMA.png"
+              alt="Imagen de Prisma"
             />
           </div>
+
+          <div className={styles.skills}>
+            <Image
+              layout="responsive"
+              width={50}
+              height={30}
+              src="/img/postgresql.jpeg"
+              alt="Imagen de PostgreSQL"
+            />
+          </div>
+
+          <div className={styles.skills}>
+            <Image
+              layout="responsive"
+              width={50}
+              height={30}
+              src="/img/png-transparent-logo-css-css3.png"
+              alt="Imagen de CSS"
+            />
+          </div>
+
 
           <div className={styles.skills}>
             <Image
